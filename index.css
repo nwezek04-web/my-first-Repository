@@ -1,0 +1,65 @@
+/* Remove default spacing */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+}
+
+ .head {
+  box-shadow: 0 4px 8px 0 ;
+  position: sticky;
+  display: block;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffffbb;
+}
+
+ul li  {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 4px 10px ;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+ul a {
+   display: flex;
+  color: #000000;
+  text-align: center;
+  padding: 19px 12px;
+  text-decoration: none;
+  float: left;
+}
+
+.image {
+  height: 550px;
+  width: 1660px;
+}
+
+.image-text {
+  position: absolute;
+  margin-bottom: 50px;
+  top: 90%;
+  left: 5%;
+  color: lab(0% 0 0 / 0.685);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
