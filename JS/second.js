@@ -18,3 +18,72 @@ else if (gabrielAge >= licenseAge >= votAge) {
 else {
     console.log(trueStatement);
 }
+
+// switch 
+
+const currentDay = new Date();
+const dayOfWeek = currentDay.getDay();
+
+let dayName;
+if (dayOfWeek === 0) {
+    dayName = "sunday";
+} else if (dayOfWeek === 1) {
+    dayName = "Monday";
+} else if (dayOfWeek === 2) {
+    dayName = "Tuesday";
+} else if (dayOfWeek === 3) {
+    dayName = "Wednesday";
+} else if (dayOfWeek === 4) {
+    dayName = "Thursday";
+} else if (dayOfWeek === 5) {
+    dayName = "Friday";
+} else {
+    dayName = "Saturday";
+}
+
+console.log(`Today is ${dayName}`)
+
+
+let currentMonth;
+switch (new Date().getMonth()) {
+    case 0:
+        currentMonth = "January";
+        break;
+    case 1:
+        currentMonth = "Febuary";
+        break;
+    case 2:
+        currentMonth = "March";
+        break;
+    case 3:
+        currentMonth = "April";
+        break;
+    case 4:
+        currentMonth = "May";
+        break;
+    case 5:
+        currentMonth = "June";
+        break;
+    case 6:
+        currentMonth = "July";
+        break;
+    case 7:
+        currentMonth = "August";
+        break;
+    case 8:
+        currentMonth = "September";
+        break;
+    case 9:
+        currentMonth = "October";
+        break;
+    case 10:
+        currentMonth = "November";
+        break;
+    case 11:
+        currentDay = "December";
+        break;
+        default:
+            currentMonth ="unknown Month";
+}
+
+console.log(`The current Month is ${currentMonth}`)
