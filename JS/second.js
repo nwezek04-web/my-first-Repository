@@ -18,7 +18,7 @@ else if (gabrielAge >= licenseAge >= votAge) {
 else {
     console.log(trueStatement);
 }
-
+console.log ("\n");
 // switch 
 
 const currentDay = new Date();
@@ -43,6 +43,7 @@ if (dayOfWeek === 0) {
 
 console.log(`Today is ${dayName}`)
 
+console.log ("\n");
 
 let currentMonth;
 switch (new Date().getMonth()) {
@@ -86,4 +87,31 @@ switch (new Date().getMonth()) {
             currentMonth ="unknown Month";
 }
 
-console.log(`The current Month is ${currentMonth}`)
+console.log(`The current Month is ${currentMonth}`);
+
+console.log ("\n")
+
+// class work 
+
+let text = "Apple";
+let part = text.slice (1, 2);
+console.log (part, "\n");
+
+let secondText = "Apple, Banana, Kiwi";
+let slicedPart = secondText.slice (14, 19);
+console.log (slicedPart, "\n");
+
+let thirdText = "Banana, Apple, Kiwi"
+let cutPart = thirdText.slice (8, 13);
+console.log (cutPart, "\n");
+
+
+//use concat metthod  to concat the web and development and use substring metthod to extract the word develop
+
+let firstTest = "Web";
+let secondTest = "Development";
+let concatPart = firstTest.concat (" ", secondTest);
+
+
+let extractPart = concatPart.substring (4, 11);
+console.log (extractPart); 
