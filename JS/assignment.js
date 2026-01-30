@@ -55,3 +55,19 @@ console.log(start, "\n");
 
 let end = test.endsWith("locate");
 console.log(end, "\n");
+
+
+
+
+// N/B THE BEGINING OF NUMBERS IN JAVASCRIPT IS JANUARY IST 1970
+
+// RUN A CODE  AND GENERATE THE FOLLOWING ERRORS, TYPE ERRORS, SYNTAX ERRORS AND RANNGE.
+
+
+// TYPE ERRORS
+
+try {
+  Kosi(2);
+} catch(err) {
+  console.log("MY TYPE ERRORS: ", err);
+}
